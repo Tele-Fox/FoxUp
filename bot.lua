@@ -6,7 +6,7 @@ JSON = require('dkjson')
 HTTPS = require('ssl.https')
 ----config----
 local bot_api_key = "148686910:AAGcBH9WAxlI3iFme5XXlqmmZLaXkAsmNzo"
-local BASE_URL = "https://api.telegram.org/FoxUpbot"..bot_api_key
+local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = ""
 local start = [[HI
 `/bold text`
